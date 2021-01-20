@@ -9,11 +9,13 @@ export default function Home() {
   return (
     <>
       <NavigationExample />
+      {/*
       <Container className={styles.container}>
         <AccordionExample />
         <ButtonExample />
         <CardExample />
       </Container>
+      */}
     </>
   );
 }
