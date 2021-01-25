@@ -1,4 +1,4 @@
-# hds-cra
+# hds-next
 
 This is a [Next.js](https://nextjs.org/) project which can be used to test Helsinki Design System components.
 
@@ -9,7 +9,7 @@ This project assumes that it has been cloned as a sibling to the helsinki-design
 ```
 projects/
 ├─ helsinki-design-system/
-├─ hds-cra/
+├─ hds-next/
 ```
 
 ## Installing local version of hds
