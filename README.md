@@ -1,12 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# hds-cra
+
+This is a [Next.js](https://nextjs.org/) project which can be used to test Helsinki Design System components.
+
+## Setup
+
+This project assumes that it has been cloned as a sibling to the helsinki-design-sytem project. So your directory structure should be something like this:
+
+```
+projects/
+├─ helsinki-design-system/
+├─ hds-cra/
+```
+
+## Installing local version of hds
+
+To install your local version of HDS, run:
+
+```bash
+yarn hds
+```
+
+This command will build, package and install `hds-core`, `hds-design-tokens` and `hds-react` from your local `helsinki-design-system` repository. 
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
